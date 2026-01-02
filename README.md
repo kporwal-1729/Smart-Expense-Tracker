@@ -2,6 +2,18 @@
 
 A full-featured expense tracking SPA built with **vanilla JavaScript**, demonstrating advanced frontend skills without any frameworks or libraries.
 
+## 🚀 Website Demo
+
+<p align="center">
+  <img src="pics/demo1.png" width="45%" />
+  <img src="pics/demo2.png" width="45%" />
+</p>
+
+<p align="center">
+  <img src="pics/demo3.png" width="45%" />
+  <img src="pics/demo4.png" width="45%" />
+</p>
+
 ## ✨ Features & Skills Demonstrated
 
 | Feature | JavaScript Skills | CSS Skills |
@@ -20,6 +32,10 @@ A full-featured expense tracking SPA built with **vanilla JavaScript**, demonstr
 | **Toast Notifications** | DOM creation, auto-dismiss timers | Slide animations, positioning |
 | **Responsive Design** | - | CSS Grid, Flexbox, mobile-first, media queries |
 | **Accessibility** | - | ARIA labels, focus-visible, reduced-motion |
+
+
+
+
 
 ## 🛠️ Tech Stack
 
