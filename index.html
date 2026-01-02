@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="ExpenseFlow - A modern expense tracking application with analytics and budgeting">
+    <meta name="theme-color" content="#0f1419">
+    <title>ExpenseFlow - Smart Expense Tracker</title>
+    
+    <!-- Preconnect for performance -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <!-- Fonts - Outfit for modern look, JetBrains Mono for numbers -->
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>💰</text></svg>">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <a href="#dashboard" class="logo">
+                    <span class="logo-icon">💰</span>
+                    <h1>ExpenseFlow</h1>
+                </a>
+                <p class="tagline">Track smarter, spend wiser</p>
+            </div>
+        </header>
+        
+        <!-- Main Content - SPA Views render here -->
+        <main id="main-content" class="main-content">
+            <!-- Loading State -->
+            <div class="loading-state">
+                <div class="loading-spinner"></div>
+                <p>Loading...</p>
+            </div>
+        </main>
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2025 ExpenseFlow. Built with vanilla JavaScript.</p>
+            <p class="storage-info">
+                <span class="storage-icon">💾</span>
+                Data stored locally in your browser
+            </p>
+        </footer>
+    </div>
+    
+    <!-- Toast Container -->
+    <div id="toast-container" class="toast-container" aria-live="polite"></div>
+    
+    <!-- App Script (ES Module) -->
+    <script type="module" src="js/app.js"></script>
+</body>
+</html>
